@@ -39,9 +39,9 @@
 		C6B985B818233CB3000F8327 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		C6B985BA18233CB3000F8327 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C6B985BB18233CB3000F8327 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C6B985C218233D18000F8327 /* PlainCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlainCellViewController.h; sourceTree = "<group>"; };
-		C6B985C318233D18000F8327 /* PlainCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlainCellViewController.m; sourceTree = "<group>"; };
-		C6B985C518233E42000F8327 /* PlainCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlainCellViewController.xib; sourceTree = "<group>"; };
+		C6B985C218233D18000F8327 /* PlainCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlainCellViewController.h; path = ../../PlainCellViewController.h; sourceTree = "<group>"; };
+		C6B985C318233D18000F8327 /* PlainCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlainCellViewController.m; path = ../../PlainCellViewController.m; sourceTree = "<group>"; };
+		C6B985C518233E42000F8327 /* PlainCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PlainCellViewController.xib; path = ../../PlainCellViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,14 +88,12 @@
 		C6B985A518233CB3000F8327 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				C6B985C7182342CF000F8327 /* View Controllers */,
 				C6B985AE18233CB3000F8327 /* AppDelegate.h */,
 				C6B985AF18233CB3000F8327 /* AppDelegate.m */,
 				C6B985B718233CB3000F8327 /* MainStoryboard.storyboard */,
 				C6B985BA18233CB3000F8327 /* ViewController.h */,
 				C6B985BB18233CB3000F8327 /* ViewController.m */,
-				C6B985C218233D18000F8327 /* PlainCellViewController.h */,
-				C6B985C318233D18000F8327 /* PlainCellViewController.m */,
-				C6B985C518233E42000F8327 /* PlainCellViewController.xib */,
 				C6B985A618233CB3000F8327 /* Supporting Files */,
 			);
 			path = CustomCells;
@@ -113,6 +111,24 @@
 				C6B985B518233CB3000F8327 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B985C7182342CF000F8327 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C6B985C81823434C000F8327 /* Plain Cell */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C6B985C81823434C000F8327 /* Plain Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C6B985C218233D18000F8327 /* PlainCellViewController.h */,
+				C6B985C318233D18000F8327 /* PlainCellViewController.m */,
+				C6B985C518233E42000F8327 /* PlainCellViewController.xib */,
+			);
+			path = "Plain Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
