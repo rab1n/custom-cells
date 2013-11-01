@@ -10,7 +10,6 @@
 #import "PlainCellViewController.h"
 
 @interface ViewController()
-@property (nonatomic, weak) IBOutlet UITableView *tableView;
 @end
 
 @implementation ViewController
